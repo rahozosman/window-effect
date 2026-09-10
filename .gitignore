@@ -1,0 +1,77 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Windows build output. The runner's own sources are tracked; everything CMake
+# and MSBuild generate from them is not.
+/windows/flutter/ephemeral/
+**/x64/
+**/Win32/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.tlog
+*.idb
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Platform folders this project does not ship. `flutter create` leaves them
+# behind; the app is Windows-only by design (see docs/FEASIBILITY.md).
+/android/
+/ios/
+/linux/
+/macos/
+/web/
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Local runtime state, never source. The engine writes both of these into
+# %APPDATA%\WindowEffects, but they end up here if anyone points it at the
+# repo while debugging.
+/config.json
+/engine.log
