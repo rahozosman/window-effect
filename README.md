@@ -15,7 +15,7 @@ the utility notices the windows and applies what Windows actually supports.
 ![Native engine](https://img.shields.io/badge/engine-C%2B%2B17%20Win32%2FDWM-brightgreen)
 ![Zero pub dependencies](https://img.shields.io/badge/pub%20dependencies-0-success)
 
-<img src="docs/images/settings.png" width="620" alt="The settings window">
+
 
 </div>
 
